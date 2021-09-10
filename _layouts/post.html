@@ -2,9 +2,16 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8"/>
-    <title>{{ page.title }}</title>
+    <title>{{ page.title }} - Human-Centered Data Visualization</title>
   </head>
   <body>
-    {{ content }}
+    <nav>
+      <a href="{{ site.baseurl }}">Back home</a>
+      <hr />
+    </nav>
+    <h6>{{ post.date | date_to_string: "ordinal", "US" }}</h6>
+    <article>
+      {{ content }}
+    </article>
   </body>
 </html>
