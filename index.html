@@ -9,6 +9,8 @@ title: Hello there
 <ul>
   {% for post in site.posts %}
   <li>
+    {{ post.date | date: date_to_string: "ordinal", "US" }}
+    -
     <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
   </li>
   {% endfor %}
