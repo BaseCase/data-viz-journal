@@ -1,21 +1,17 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8"/>
-    <title>Data Visualization ind. study project, Fall 2021</title>
-  </head>
-  <body>
-    <h1>hi there</h1>
+---
+layout: default
+title: Hello there
+---
 
-    <h2>Posts</h2>
-    <ul>
-      {% for post in site.posts %}
-      <li>
-        <a href="{{post.url}}">{{ post.title }}</a>
-      </li>
-      {% endfor %}
-    </ul>
+<h1>hi there</h1>
 
-    <hr />
-  </body>
-</html>
+<h2>Posts</h2>
+<ul>
+  {% for post in site.posts %}
+  <li>
+    <a href="{{post.url}}">{{ post.title }}</a>
+  </li>
+  {% endfor %}
+</ul>
+
+<hr />
