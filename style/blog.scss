@@ -3,16 +3,17 @@
 
 body {
   background: #f1f1f1;
-  font-family: ivyjournal, serif;
-  font-weight: 400;
 }
 
 article {
-  max-width: 35em;
+  font-family: ivyjournal, serif;
+  font-weight: 400;
+
+  max-width: 38em;
   padding: 0 2em;
   margin-bottom: 4em;
-  font-size: 16pt;
-  line-height: 1.4;
+  font-size: 14pt;
+  line-height: 1.6;
 
   img {
     width: 100%;
