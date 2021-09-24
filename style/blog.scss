@@ -2,5 +2,17 @@
 ---
 
 body {
-  background: green;
+  background: #f1f1f1;
+}
+
+article {
+  max-width: 35em;
+  padding: 0 2em;
+  margin-bottom: 4em;
+  font-size: 16pt;
+  line-height: 1.4;
+
+  img {
+    width: 100%;
+  }
 }
