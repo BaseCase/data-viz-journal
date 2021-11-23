@@ -26,7 +26,7 @@ My web framework is [Luminus](https://luminusweb.com), one of the most popular o
 ## Client: d3.js
 ![D3 Logo]({{site.url}}/img/d3_logo.webp){:class="small-image"}
 
-My client code will be simple HTML, CSS, and JavaScript, and to actually draw my data visualizations, I'll use industry standard [d3.js](https://d3js.org/). D3 is a bit complicated to learn to use, but its flexibility and power more than make up for this. I anticipate having to bash my head against d3 a fair number of times while getting it to do what I want, but I know the investment will be off in the long run.
+My client code will be simple HTML, CSS, and JavaScript, and to actually draw my data visualizations, I'll use industry standard [d3.js](https://d3js.org/). D3 is a bit complicated to learn to use, but its flexibility and power more than make up for this. I anticipate having to bash my head against d3 a fair number of times while getting it to do what I want, but I know the investment will pay off in the long run.
 
 ## That's it!
 And that's everything! Like I said, I wanted to keep things nice and simple. This site is going to have at most a two-digit number of visitors at any time, so I really don't have to concern myself with anything more complex than this.
